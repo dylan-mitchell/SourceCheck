@@ -7,7 +7,7 @@ The list of unreliable domains comes from [opensources.co](https://github.com/Op
 
 ## Install
 
-Since the extension is currently not in the Firefox Add-On directory you can temporarily install it to Firefox from source.
+You can temporarily install it to Firefox from source.
 
 To do so:
 
@@ -17,3 +17,7 @@ To do so:
 4. Select the `manifest.json` file from the repo
 
 You can manually remove the extension, or restart Firefox and it will automatically be removed.
+
+Or install from the Add-ons directory
+
+https://addons.mozilla.org/en-US/firefox/addon/sourcecheck/
