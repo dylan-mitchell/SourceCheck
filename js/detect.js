@@ -34,8 +34,8 @@ port.onMessage.addListener(function(m) {
     if (url2Domain(aTags[i].href) === m.flagged.domain) {
       aTags[i].style.color = "black";
       aTags[i].style.background = "yellow";
-      inner = aTags[i].innerHTML;
-      aTags[i].innerHTML = "⚠️Flagged by SourceCheck⚠️ " + inner;
+      inner = aTags[i].textContent;
+      aTags[i].textContent = "⚠️Flagged by SourceCheck⚠️ " + inner;
     }
   }
 });

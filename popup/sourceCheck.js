@@ -6,40 +6,40 @@ port.onMessage.addListener(function(m) {
   console.log(m.flagged);
   if (typeof m.flagged === "string") {
     var url = document.createElement("H2"); // Create a <h2> element
-    url.innerHTML = m.flagged; // Insert text
+    url.textContent = m.flagged; // Insert text
     url.classList.add("url");
     document.body.appendChild(url);
     var header = document.createElement("H2"); // Create a <h2> element
-    header.innerHTML = "This site appears to be credible."; // Insert text
+    header.textContent = "This site appears to be credible."; // Insert text
     document.body.appendChild(header);
   } else {
     var url = document.createElement("H2"); // Create a <h2> element
-    url.innerHTML = m.flagged.pop(); // Insert text
+    url.textContent = m.flagged.pop(); // Insert text
     url.classList.add("url");
     document.body.appendChild(url);
     var flaggedSitesHeader = document.createElement("H1"); // Create a <h2> element
-    flaggedSitesHeader.innerHTML = "Flagged Sites:"; // Insert text
+    flaggedSitesHeader.textContent = "Flagged Sites:"; // Insert text
     document.body.appendChild(flaggedSitesHeader);
     for (var i = 0; i < m.flagged.length; i++) {
       //Domain
       var header = document.createElement("H2"); // Create a <h2> element
-      header.innerHTML = "⚠️ " + m.flagged[i].domain; // Insert text
+      header.textContent = "⚠️ " + m.flagged[i].domain; // Insert text
       document.body.appendChild(header);
       //Reasons why
       var list = document.createElement("ul"); // Create a <ul> element
       var item = document.createElement("li");
-      item.innerHTML = m.flagged[i].type;
+      item.textContent = m.flagged[i].type;
       list.appendChild(item);
 
       if (m.flagged[i]["2nd type"]) {
         item = document.createElement("li");
-        item.innerHTML = m.flagged[i]["2nd type"];
+        item.textContent = m.flagged[i]["2nd type"];
         list.appendChild(item);
       }
 
       if (m.flagged[i]["3rd type"]) {
         item = document.createElement("li");
-        item.innerHTML = m.flagged[i]["3rd type"];
+        item.textContent = m.flagged[i]["3rd type"];
         list.appendChild(item);
       }
 
