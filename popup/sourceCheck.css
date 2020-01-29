@@ -1,0 +1,25 @@
+html,
+body {
+  width: 350px;
+  padding: 10px;
+  font-family: "Arial";
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#title {
+  font-size: 25px;
+}
+
+.url {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 15px;
+}
