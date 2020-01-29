@@ -1133,12 +1133,6 @@
     "3rd type" : "",
     "Source Notes (things to know?)" : ""
   },
-  "corbettreport.com" : {
-    "type" : "conspiracy",
-    "2nd type" : "",
-    "3rd type" : "",
-    "Source Notes (things to know?)" : ""
-  },
   "countdowntozerotime.com" : {
     "type" : "conspiracy",
     "2nd type" : "",
@@ -1496,12 +1490,6 @@
   "prepperwebsite.com" : {
     "type" : "conspiracy",
     "2nd type" : "fake",
-    "3rd type" : "",
-    "Source Notes (things to know?)" : ""
-  },
-  "prisonplanet.com" : {
-    "type" : "conspiracy",
-    "2nd type" : "",
     "3rd type" : "",
     "Source Notes (things to know?)" : ""
   },
@@ -2093,12 +2081,6 @@
     "3rd type" : "",
     "Source Notes (things to know?)" : ""
   },
-  "empirenews.net" : {
-    "type" : "fake",
-    "2nd type" : "",
-    "3rd type" : "",
-    "Source Notes (things to know?)" : "http://www.politifact.com/punditfact/article/2017/apr/20/politifacts-guide-fake-news-websites-and-what-they/"
-  },
   "en-vovle.com" : {
     "type" : "fake",
     "2nd type" : "",
@@ -2310,12 +2292,6 @@
     "Source Notes (things to know?)" : ""
   },
   "local31news.com" : {
-    "type" : "fake",
-    "2nd type" : "",
-    "3rd type" : "",
-    "Source Notes (things to know?)" : "http://www.politifact.com/punditfact/article/2017/apr/20/politifacts-guide-fake-news-websites-and-what-they/"
-  },
-  "madworldnews.com" : {
     "type" : "fake",
     "2nd type" : "",
     "3rd type" : "",
@@ -3184,12 +3160,6 @@
     "2nd type" : "conspiracy",
     "3rd type" : "",
     "Source Notes (things to know?)" : ""
-  },
-  "amren.com" : {
-    "type" : "hate",
-    "2nd type" : "",
-    "3rd type" : "",
-    "Source Notes (things to know?)" : "https://www.splcenter.org/fighting-hate/extremist-files/groups"
   },
   "aryannationswordwide1488.org" : {
     "type" : "hate",
@@ -4211,12 +4181,6 @@
     "3rd type" : "",
     "Source Notes (things to know?)" : "About Me notes that it's not fake/satirical news"
   },
-  "empiresports.co" : {
-    "type" : "satire",
-    "2nd type" : "",
-    "3rd type" : "",
-    "Source Notes (things to know?)" : "http://www.politifact.com/punditfact/article/2017/apr/20/politifacts-guide-fake-news-websites-and-what-they/"
-  },
   "fmobserver.com" : {
     "type" : "satire",
     "2nd type" : "",
@@ -4374,12 +4338,6 @@
     "Source Notes (things to know?)" : ""
   },
   "objectiveministries.org" : {
-    "type" : "satire",
-    "2nd type" : "",
-    "3rd type" : "",
-    "Source Notes (things to know?)" : ""
-  },
-  "patriotnewsdaily.com" : {
     "type" : "satire",
     "2nd type" : "",
     "3rd type" : "",
@@ -4820,12 +4778,6 @@
   "madpatriots.com" : {
     "type" : "unreliable",
     "2nd type" : "clickbait",
-    "3rd type" : "",
-    "Source Notes (things to know?)" : ""
-  },
-  "madworldnews.com" : {
-    "type" : "unreliable",
-    "2nd type" : "hate",
     "3rd type" : "",
     "Source Notes (things to know?)" : ""
   },
