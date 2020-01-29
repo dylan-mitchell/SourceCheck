@@ -3,7 +3,7 @@ Check the credibility of websites and the links they link to.
 
 SourceCheck is a Firefox Browser extension that checks the current domain of the current page, as well as the domains of all of the links on that page against a list of unreliable domains.
 
-The list of unreliable domains comes from [opensources.co](https://github.com/OpenSourcesGroup/opensources). I'm actively looking for a better source for this list, as it appears that [opensources.co](opensources.co) is a dead project.
+The list of unreliable domains comes from [opensources.co](https://github.com/OpenSourcesGroup/opensources). I'm actively looking for a better source for this list, as it appears that [opensources.co](https://opensources.co) is a dead project.
 
 ## Install
 
