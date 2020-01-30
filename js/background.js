@@ -1,3 +1,8 @@
+//Check if chrome
+if (chrome) {
+  browser = chrome;
+}
+
 function loadJSON(path, success, error) {
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function() {

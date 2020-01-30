@@ -1,3 +1,8 @@
+//Check if chrome
+if (chrome) {
+  browser = chrome;
+}
+
 let port = browser.runtime.connect({ name: "popupPort" });
 
 port.postMessage({ getFlagged: "true" });

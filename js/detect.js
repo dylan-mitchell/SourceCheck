@@ -9,6 +9,11 @@ function url2Domain(url) {
   }
 }
 
+//Check if chrome
+if (chrome) {
+  browser = chrome;
+}
+
 //Check all the links on the page
 var aTags = document.getElementsByTagName("a");
 var links = [];
