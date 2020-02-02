@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
   "name": "SourceCheck",
-  "version": "1.0",
+  "version": "1.1",
 
   "description": "Check the credibility of websites and the links they link to.",
   "homepage_url": "https://github.com/dylan-mitchell/SourceCheck",
 
   "icons": {
-    "48": "icons/check.svg",
-    "96": "icons/check.svg"
+    "48": "icons/check.png",
+    "96": "icons/check-96.png"
   },
 
   "applications": {
@@ -34,9 +34,9 @@
     "default_icon": "icons/check.svg",
     "theme_icons": [
       {
-        "light": "icons/check-dark.svg",
-        "dark": "icons/check.svg",
-        "size": 32
+        "light": "icons/check-dark.png",
+        "dark": "icons/check.png",
+        "size": 48
       }
     ],
     "default_title": "SourceCheck",
